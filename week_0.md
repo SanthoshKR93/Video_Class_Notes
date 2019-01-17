@@ -1,4 +1,5 @@
 
+
 ## Video 1
 
 # Learning the command line
@@ -120,7 +121,8 @@ cp file1 file2
    <strong>Disadvantages</strong>: When the code has to be run on other machines, the systems running this executable must have all the 
    libraries needed for its working, if not present, program will not work properly.
    Dynamic linking is becoming a problem when using cloud computing since the code has to be spread over many systems in the cloud. 
-   <strong>NOTE</strong>: image, music and machine code files are non- ASCII ie they are not readable or printable.   
+   ### NOTE:
+   image, music and machine code files are non- ASCII ie they are not readable or printable.   
  
 - Inside the root there are many folders:
 - <strong>bin</strong> : It contains files having machine code for most of the commands used in the terminal.
@@ -165,7 +167,8 @@ cp file1 file2
   and many other libraries. When we remove any files from this folder, then most of the commands and system functions will not work.
 - <strong>lost+found</strong>: Used for troubleshooting purposes.
   The 'fsck' command is used to repair the file system if there is any problem.
-  <strong>NOTE</strong>: The native linux file system is ext4
+  ### NOTE: 
+  The native linux file system is ext4
 - <strong>proc</strong>: It refers to 'processes' ie. it has got files which has information about the processes running on the system.
   cpuinfo file in the proc folder shows the current cpu information.
   Some of the folders in proc folder are numbered folders. ie they are having a particular number and this number corresponds to the process id. 
@@ -178,4 +181,5 @@ cp file1 file2
   log files store the diagonostic data written by a program occasionally while running.
   spool folder contains data in the form of a queue and sends it to the corresponding processes once the process is free.
   eg: printer spool : which stores the data to be printed as a queue in the spool and once the printer is free, it sends in the data to be printed.
-  <strong>NOTE:</strong> The os kernel manages all of this with the help of drivers.
+  ### NOTE:
+  The os kernel manages all of this with the help of drivers.
